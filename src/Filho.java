@@ -1,5 +1,5 @@
 public class Filho extends Pessoa{
-    private int qtdIrmaos;
+    protected int qtdIrmaos;
 
     public int getQtdIrmaos() {
         return qtdIrmaos;
