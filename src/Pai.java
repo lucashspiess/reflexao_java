@@ -1,4 +1,4 @@
-public class Pai extends Pessoa{
+public class Pai extends Filho{
     private int qtdFilhos;
 
     public int getQtdFilhos() {
@@ -7,15 +7,5 @@ public class Pai extends Pessoa{
 
     public void setQtdFilhos(int qtdFilhos) {
         this.qtdFilhos = qtdFilhos;
-    }
-
-    @Override
-    public int getIdade() {
-        return idade;
-    }
-
-    @Override
-    public String getTipoVoz() {
-        return tipoVoz;
     }
 }
