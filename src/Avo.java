@@ -1,4 +1,4 @@
-public class Avo extends Pessoa {
+public class Avo extends Pai {
     private int qtdNetos;
 
     public int getQtdNetos() {
@@ -7,15 +7,5 @@ public class Avo extends Pessoa {
 
     public void setQtdNetos(int qtdNetos) {
         this.qtdNetos = qtdNetos;
-    }
-
-    @Override
-    public int getIdade() {
-        return idade;
-    }
-
-    @Override
-    public String getTipoVoz() {
-        return tipoVoz;
     }
 }
