@@ -1,5 +1,5 @@
 public class Pai extends Filho{
-    private int qtdFilhos;
+    protected int qtdFilhos;
 
     public int getQtdFilhos() {
         return qtdFilhos;
