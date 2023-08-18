@@ -22,7 +22,6 @@ public class Reflete {
     }
 
     private static void listaAtributos(Class <?> cls) {
-
         if(cls.getSimpleName().equals(OBJECT)){ return; }
 
         Field[] lista = cls.getDeclaredFields();
